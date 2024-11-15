@@ -1,0 +1,8 @@
+#!/bin/bash
+javac HW1.java
+java HW1 "$@"
+
+
+
+
+

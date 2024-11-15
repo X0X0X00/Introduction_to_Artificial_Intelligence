@@ -1,1 +1,36 @@
+Zhenhao Zhang zzh133@u.rochester.edu
+
+|-- README
+|-- HW1.java
+|-- sat
+
+## How to Run
+The following command is a sample run script for the SAT solver.
+```bash
+ ./sat < sat-problem1.txt
+```
+
+## Sample Output
+```bash
+> ./sat < sat-problem1.txt
+satisfiable A=T B=F C=F
+satisfiable A=T B=F C=T
+satisfiable A=F B=T C=T
+satisfiable A=T B=T C=T
+```
+
+```bash
+> ./sat < sat-problem2.txt
+unsatisfiable
+```
+
+```bash
+> cat sat-problem1.txt
+A,B
+~B,C
+```
+
+
+
+
 
