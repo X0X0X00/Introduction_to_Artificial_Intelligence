@@ -1,2 +1,2 @@
 # Introduction-to-Artificial-Intelligence
-Projects
+Homeworks
