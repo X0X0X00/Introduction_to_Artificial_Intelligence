@@ -1,1 +1,44 @@
+Zhenhao Zhang zzh133@u.rochester.edu
+
+|-- README
+|-- puzzle.java
+|-- test_in.txt
+
+## How to Run
+The following command is a sample run script for the HW2.
+```bash
+> javac puzzle.java
+```
+
+## Sample Output
+```bash
+> java puzzle --bfs < test_in.txt
+Expanded in bfs: 17
+UP
+UP
+LEFT
+LEFT
+```
+
+```bash
+> java puzzle --astar < test_in.txt
+Expanded in astar: 5
+UP
+UP
+LEFT
+LEFT
+```
+
+## Implementation
+1.Heuristic for AStar:
+    I use the manhattan distance as the heuristic for AStar. Find the difference between the goal stat(x,y) and the current stat(a,b).
+    H(n)=|x-a|+|y-b|
+    As for the g(n), I just count the current.path.size() + 1.
+
+2.The relative performance of BFS and AStar:
+    The AStar is much faster than BFS. The reason is that AStar uses the heuristic to estimate the cost to the goal, so it can find the goal faster than BFS.
+    The BFS will expand all the nodes in the same level, but AStar will expand the node with the smallest f(n) value. So AStar will find the goal faster than BFS.
+    In my program, I count all the expanded nodes in BFS and AStar "Expanded in astar: 5" & "Expanded in bfs: 17".
+    The expanded nodes in AStar is much less than BFS.
+    @ You can command off to print the expending nodes in the program at line 140 & 168.
 
