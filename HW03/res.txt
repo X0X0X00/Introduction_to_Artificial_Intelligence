@@ -1,0 +1,66 @@
+IN
+
+Submission path: ./
+Correct unsatisfiability for test case: 20
+
+
+Correct satisfiability and correct assignment for test case: 18
+
+
+Correct unsatisfiability for test case: 9
+
+
+Correct satisfiability and correct assignment for test case: 11
+
+
+Correct satisfiability and correct assignment for test case: 7
+
+
+Correct satisfiability and correct assignment for test case: 16
+
+
+Correct unsatisfiability for test case: 6
+
+
+Correct unsatisfiability for test case: 17
+
+
+Correct unsatisfiability for test case: 1
+
+
+Correct unsatisfiability for test case: 10
+
+
+Correct satisfiability and correct assignment for test case: 19
+
+
+Correct unsatisfiability for test case: 8
+
+
+Correct unsatisfiability for test case: 4
+
+
+Correct satisfiability and correct assignment for test case: 15
+
+
+Correct unsatisfiability for test case: 3
+
+
+Correct satisfiability and correct assignment for test case: 12
+
+
+Correct unsatisfiability for test case: 2
+
+
+Correct unsatisfiability for test case: 13
+
+
+Correct unsatisfiability for test case: 5
+
+
+Correct satisfiability and correct assignment for test case: 14
+
+
+
+Test cases passed: 20/20 | Score: 100.0%
+

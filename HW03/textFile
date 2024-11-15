@@ -1,0 +1,2 @@
+#!/bin/sh
+java sat $1 $2
