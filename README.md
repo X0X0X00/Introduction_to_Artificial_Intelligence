@@ -1,4 +1,4 @@
-# CSC 242 Introduction-to-Artificial-Intelligence
+# CSC 242 Introduction to Artificial Intelligence
 This course introduces fundamental principles and techniques from Artificial Intelligence, including:
 
 Heuristic search
